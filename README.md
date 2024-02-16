@@ -1,8 +1,9 @@
 # JdjLoginGds0553
 # Instalación 
 - Clonar el repositorio
-- usa git clone URL
-
+```
+git clone 
+```
 ## Instalar los modulos
 - cambiarse al dierectorio del proyecto
 - cd <nombre_proyecto>

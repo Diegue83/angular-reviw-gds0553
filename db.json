@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "93ad",
+      "fullname": "Juan Diego Juarez",
+      "email": "4181180400d@gmail.com",
+      "password": "A1234bc78"
+    },
+    {
+      "id": "2a8c",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "dc14",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "dc30",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "63d1",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "b56f",
+      "fullname": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "1d45",
+      "fullname": "Angelina Jouly",
+      "email": "angy@gmail.com",
+      "password": "gyytf7t34A"
+    },
+    {
+      "id": "07eb",
+      "fullname": "Diego",
+      "email": "4181180400d@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "c589",
+      "fullname": "Diego",
+      "email": "4181180400d@gmail.com",
+      "password": "12345"
+    }
+  ]
+}

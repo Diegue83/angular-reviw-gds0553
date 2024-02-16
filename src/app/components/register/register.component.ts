@@ -6,6 +6,7 @@ import { response } from 'express';
 import { error } from 'console';
 import { MessageService } from 'primeng/api';
 import { Router } from '@angular/router';
+import { passwordMatchValidator } from '../../shared/password-match.directives';
 
 @Component({
   selector: 'app-register',
@@ -19,7 +20,10 @@ export class RegisterComponent {
     email:['',[Validators.required,Validators.email]],
     password:['',[Validators.required]],
     confirmPassword:['',[Validators.required]]
-  })
+  },{
+    validators: passwordMatchValidator
+  }
+  )
 
   constructor(private fb:FormBuilder, 
     private authService:AuthService,

@@ -53,6 +53,30 @@
       "fullname": "Diego",
       "email": "4181180400d@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "f35e",
+      "fullname": "Juan Diego Juarez",
+      "email": "diego@gmail.com",
+      "password": "Hola1234"
+    },
+    {
+      "id": "675a",
+      "fullname": "Juan Diego",
+      "email": "4181180400d@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "c1e7",
+      "fullname": "jij9hoij",
+      "email": "4181180400d@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "8489",
+      "fullname": "Juan Diego Jurez",
+      "email": "digue@gmail.com",
+      "password": "1234"
     }
   ]
 }

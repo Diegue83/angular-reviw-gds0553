@@ -4,6 +4,7 @@ import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { response } from 'express';
 import { error } from 'console';
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-login',
@@ -19,7 +20,8 @@ export class LoginComponent {
   constructor(
     private fb:FormBuilder,
     private authService:AuthService,
-    private router:Router
+    private router:Router,
+    private messageService:MessageService
     ){}
 
   get email(){
@@ -41,7 +43,13 @@ export class LoginComponent {
         }
       },
       error=>{
-
+        this.messageService.add(
+          {
+            severity:'error',
+            summary:'No se Inicio Sesion',
+            detail:'Usuario o Contraseña Incorecto'
+          }
+        )
       }
     )
   }
